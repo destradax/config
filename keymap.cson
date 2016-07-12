@@ -1,0 +1,12 @@
+'body':
+  'ctrl-k j': 'pane:split-up-and-copy-active-item'
+  'ctrl-k k': 'pane:split-down-and-copy-active-item'
+  'ctrl-k h': 'pane:split-left-and-copy-active-item'
+  'ctrl-k l': 'pane:split-right-and-copy-active-item'
+
+'.platform-win32':
+  'ctrl-shift-S': 'window:save-all'
+
+'.platform-win32 atom-text-editor':
+  'ctrl-alt-q': 'unset!'
+  'ctrl-alt-[': 'unset!'

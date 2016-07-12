@@ -1,0 +1,23 @@
+[http]
+	sslVerify = false
+[https]
+[core]
+	autocrlf = true
+	pager = less -x4
+	ignorecase = true
+	longpaths = true
+[user]
+	name = destradax
+	email = destradax@gmail.com
+[push]
+	default = simple
+[gui]
+	recentrepo = D:/src/gtl/oms
+[alias]
+	s = status
+	d = diff --color-words
+	ds = diff --color-words --staged
+	l = log --decorate
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --graph --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --numstat
+	review = "!sh -c \"git log -p --reverse --color-words --grep=OMS-$1\""
